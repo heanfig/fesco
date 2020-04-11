@@ -3950,7 +3950,7 @@ body.page-template-home-tpl #items-value-container .value-items .item:after {
     width: 100%;
     height: 100%;
     background-color: #000;
-    opacity: .5;
+    opacity: .2;
     z-index: -1
 }
 
