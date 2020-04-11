@@ -3702,41 +3702,50 @@ body.page-template-home-tpl #slider-img .copy-video img {
     }
 }
 
-body.page-template-home-tpl #infographics-container {
-    height: 760px;
+body.page-template-home-tpl #banner-section-bg-subtitle {
+    height: 500px;
     width: 100%;
     position: relative;
     box-shadow: inset 0 0 60em #000;
-    background-image: url(../css/7d2b4ebeab1cd6b99e57fdd147e2203d.jpg);
+    background-image: url(../img/banner-our.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: top
 }
 
-body.page-template-home-tpl #infographics-container:after {
+#banner-section-bg-subtitle h2 {
+    color: #F7B63D;
+    font-size: 4.3rem;
+    margin-bottom: 67px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+body.page-template-home-tpl #banner-section-bg-subtitle:after {
     opacity: .2;
     z-index: 0!important
 }
 
-body.page-template-home-tpl #infographics-container .text {
+body.page-template-home-tpl #banner-section-bg-subtitle .text {
     position: relative;
     z-index: 1;
     padding-top: 5em
 }
 
-body.page-template-home-tpl #infographics-container .text img {
+body.page-template-home-tpl #banner-section-bg-subtitle .text img {
     max-width: 100%;
     display: block;
     margin: 1em auto
 }
 
-body.page-template-home-tpl #infographics-container .text .text-body {
+body.page-template-home-tpl #banner-section-bg-subtitle .text .text-body {
     color: #fff;
     font-size: 1.5625em;
     text-align: center
 }
 
-body.page-template-home-tpl #infographics-container .text .text-body a {
+body.page-template-home-tpl #banner-section-bg-subtitle .text .text-body a {
     display: block;
     width: 165px;
     height: 44px;
@@ -3750,33 +3759,33 @@ body.page-template-home-tpl #infographics-container .text .text-body a {
     margin: 1em auto
 }
 
-body.page-template-home-tpl #infographics-container .image {
+body.page-template-home-tpl #banner-section-bg-subtitle .image {
     position: relative;
     z-index: 1;
     max-width: 100%;
     padding-top: 10em
 }
 
-body.page-template-home-tpl #infographics-container .image img {
+body.page-template-home-tpl #banner-section-bg-subtitle .image img {
     display: block;
     margin: 1em auto;
     max-width: 100%
 }
 
 @media (max-width:767px) {
-    body.page-template-home-tpl #infographics-container .image {
+    body.page-template-home-tpl #banner-section-bg-subtitle .image {
         padding-top: 2em
     }
 }
 
 @media (max-width:767px) {
-    body.page-template-home-tpl #infographics-container {
+    body.page-template-home-tpl #banner-section-bg-subtitle {
         height: auto;
         min-height: 100vh
     }
 }
 
-body.page-template-home-tpl #infographics-container:after {
+body.page-template-home-tpl #banner-section-bg-subtitle:after {
     content: "";
     display: block;
     position: absolute;
