@@ -3818,10 +3818,11 @@ body.page-template-home-tpl #items-value-container .head-body h2 {
 
 body.page-template-home-tpl #items-value-container .head-body h3 {
     line-height: 1;
-    font-size: 4.0625em;
-    color: #ffbb01;
+    font-size: 3.0625em;
+    color: #9B1D21;
     text-transform: uppercase;
-    margin-bottom: .5em
+    margin-bottom: .5em;
+    padding: 20px 0;
 }
 
 @media (max-width:767px) {
@@ -3971,10 +3972,11 @@ body.page-template-home-tpl #impact-value-container .head-body h2 {
 body.page-template-home-tpl #impact-value-container-proyects .head-body h3,
 body.page-template-home-tpl #impact-value-container .head-body h3 {
     line-height: 1;
-    font-size: 4.0625em;
-    color: #ffbb01;
+    font-size: 3.0625em;
+    color: #9B1D21;
     text-transform: uppercase;
-    margin-bottom: 1.5em
+    margin-bottom: 1.5em;
+    padding: 20px 0;
 }
 
 @media (max-width:767px) {
@@ -8055,7 +8057,7 @@ body.page-template-what-we-do-tpl .gestion #inf-gestion ul li:hover a {
 .site-footer {
     position: relative;
     box-shadow: inset 0 0 40em #000;
-    background-image: url(../css/ff1d5dfaf884e846c95547d0c10b62cc.jpg);
+    background-image: url(../img/footer.png);
     background-size: cover;
     background-position: 50%;
     background-position: bottom
