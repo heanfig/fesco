@@ -3825,6 +3825,16 @@ body.page-template-home-tpl #items-value-container .head-body h3 {
     padding: 20px 0;
 }
 
+.head-body h3 {
+    line-height: 1;
+    font-size: 3.0625em;
+    color: #9B1D21;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+    padding: 20px 0;
+}
+
+
 @media (max-width:767px) {
     body.page-template-home-tpl #items-value-container .head-body h3 {
         font-size: 2.1875em
@@ -8054,6 +8064,118 @@ body.page-template-what-we-do-tpl .gestion #inf-gestion ul li:hover a {
     z-index: -1
 }
 
+/***** Interactive Map ********/
+/***** Interactive Map ********/
+.inpho-map {
+    display: flex;
+}
+
+.distribution-map {
+    position: relative;
+    flex: 1 1 70%;
+}
+
+.distribution-map img {
+    width: 100%;
+}
+
+.inpho-map-details {
+    display: flex;
+    align-items: center;
+    flex: 1 1 30%;
+}
+
+.distribution-map .map-point {
+    -webkit-appearance: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+    position: absolute;
+}
+
+.map-point:before {
+    background: #fff;
+    content: "Manizales";
+    border-radius: 10px;
+    padding: 0px 8px;
+    color: #9B1D21;
+    font-weight: bold;
+    border: 1px solid #9b1d21bf;
+}
+
+button.map-point:after {
+    content: "";
+    background: url(../img/icon-marker.png);
+    background-size: contain;
+    width: 30px;
+    height: 55px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: -44px;
+    left: 26px;
+}
+
+.box {
+    background: #9b1d21;
+}
+
+.box-header {
+    background: #eb7421;
+}
+
+.box-header p {
+    color: #fff;
+}
+
+.box-header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.box-header p {
+    margin: 0 auto;
+    max-width: 105px;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.box-content {
+    padding: 15px;
+}
+
+.box-location {
+    display: flex;
+    padding-left: 29px;
+    margin-bottom: 16px;
+}
+
+.box-location ul li {
+    color: #fff;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.box-location-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-location-img img {
+    max-width: 40px;
+}
+
+.box-location ul {
+    list-style-type: none;
+    padding-left: 27px;
+    margin: 0;
+}
+
+/***** Interactive Map ********/
+/***** Interactive Map ********/
+
+
 .site-footer {
     position: relative;
     box-shadow: inset 0 0 40em #000;
@@ -8177,7 +8299,7 @@ body.page-template-what-we-do-tpl .gestion #inf-gestion ul li:hover a {
 }
 
 .site-footer .page-footer {
-    background-color: rgba(155, 29, 33, 0.3);
+    background-color: rgba(155, 29, 33, 0.5);
     padding: 1em 0;
     margin: 30px 0px;
 }
@@ -8196,14 +8318,13 @@ body.page-template-what-we-do-tpl .gestion #inf-gestion ul li:hover a {
 
 .site-footer .page-footer .col1 .location-item a,
 .site-footer .page-footer .col1 .location-item p {
-    text-align: right;
     font-size: 15px;
-    font-family: Open Sans Bold;
-    color: #3c3c3c;
     display: inline-block;
     vertical-align: middle;
     width: 82%;
-    margin: 0
+    margin: 0;
+    padding-left: 17px;
+    color: #fff;
 }
 
 @media (max-width:767px) {
@@ -8245,7 +8366,7 @@ body.page-template-what-we-do-tpl .gestion #inf-gestion ul li:hover a {
 
 .site-footer .page-footer .col2 {
     position: relative;
-    border-right: 2px solid #3c3c3c
+    border-right: 2px solid #fff;
 }
 
 @media (min-width:1200px) {
@@ -8374,6 +8495,92 @@ body.page-template-what-we-do-tpl .gestion #inf-gestion ul li:hover a {
     text-align: center;
     color: #fff;
     font-family: Raleway Bold
+}
+
+.footer-location {
+    display: flex;
+    padding-left: 29px;
+}
+
+.footer-location ul li {
+    color: #fff;
+    line-height: 9px;
+    font-size: 16px;
+}
+
+.footer-location ul {
+    margin-left: 11px;
+}
+
+
+.footer-img img {
+    max-width: 40px;
+    align-self: center;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-location ul {
+    margin-bottom: 0;
+}
+
+.location-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.location-item-img img {
+    max-width: 34px;
+}
+
+.location-item p {
+    color: #fff;
+    text-align: left;
+}
+
+.social-feed {
+    display: flex;
+    background: #fff;
+    border-radius: 23px;
+    padding: 7px;
+    justify-content: center;
+    max-width: 60%;
+}
+
+.social-feed img {
+    padding: 4px;
+    max-height: 40px;
+    margin-left: 10px;
+}
+
+.page-feed-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.page-feed {
+    padding: 1em 0;
+    margin: 30px 0px;
+}
+
+.page-feed-item h5 {
+    flex-basis: 100%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 9px;
+}
+
+.social-feed img:last-child {
+    margin-right: 10px;
 }
 
 body.page-template-voluntariado-tpl {
