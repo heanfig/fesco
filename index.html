@@ -21,8 +21,10 @@
     <link rel="stylesheet" id="slick-theme-css-css" href="./assets/slick-theme.css" type="text/css" media="all">
     <link rel="stylesheet" id="animate-css-css" href="./assets/animate.css" type="text/css" media="all">
     <link rel="stylesheet" id="styles-css-css" href="./assets/theme.css" type="text/css" media="all">
-    <script type="text/javascript" src="./assets/jquery.js.descarga"></script>
-    <script type="text/javascript" src="./assets/jquery-migrate.min.js.descarga"></script>
+    <script type="text/javascript" src="./assets/jquery.js"></script>
+    <script type="text/javascript" src="./assets/jquery-migrate.min.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
 
     <style type="text/css" id="wp-custom-css">
         .logo-corporativo img {
@@ -296,7 +298,7 @@
                                         </ul>
                                     </div>
                                     <div class="box-map">
-                                        SEDE MANIZALES
+                                        <div id='map' style='width: 100%; height: 150px;'></div>
                                     </div>
                                 </div>
                             </div>
@@ -424,8 +426,8 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="./assets/scripts.js.descarga"></script>
-    <script type="text/javascript" src="./assets/yith.infinitescroll.min.js.descarga"></script>
+    <script type="text/javascript" src="./assets/scripts.js"></script>
+    <script type="text/javascript" src="./assets/yith.infinitescroll.min.js"></script>
     <script type="text/javascript">
         /* <![CDATA[ */
         var yith_infs = {
@@ -438,16 +440,23 @@
         };
         /* ]]> */
     </script>
-    <script type="text/javascript" src="./assets/yith-infs.min.js.descarga"></script>
-    <script type="text/javascript" src="./assets/general.js.descarga"></script>
-    <script type="text/javascript" src="./assets/modernizr-2.8.3.min.js.descarga"></script>
-    <script type="text/javascript" src="./assets/bootstrap.min.js.descarga"></script>
-    <script type="text/javascript" src="./assets/slick.min.js.descarga"></script>
-    <script type="text/javascript" src="./assets/jquery.knob.min.js.descarga"></script>
-    <script type="text/javascript" src="./assets/wow.js.descarga"></script>
-    <script type="text/javascript" src="./assets/waypoints.js.descarga"></script>
-    <script type="text/javascript" src="./assets/counterup.js.descarga"></script>
-    <script type="text/javascript" src="./assets/main.js.descarga"></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiaGVhbmZpZyIsImEiOiJjazh3azBjYm0wZjd6M2ZtYzdpa2IwdGJjIn0.53SAZpbiSHCifsnBhX_kFQ';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11'
+        });
+    </script>
+    <script type="text/javascript" src="./assets/yith-infs.min.js"></script>
+    <script type="text/javascript" src="./assets/general.js"></script>
+    <script type="text/javascript" src="./assets/modernizr-2.8.3.min.js"></script>
+    <script type="text/javascript" src="./assets/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/slick.min.js"></script>
+    <script type="text/javascript" src="./assets/jquery.knob.min.js"></script>
+    <script type="text/javascript" src="./assets/wow.js"></script>
+    <script type="text/javascript" src="./assets/waypoints.js"></script>
+    <script type="text/javascript" src="./assets/counterup.js"></script>
+    <script type="text/javascript" src="./assets/main.js"></script>
 
 </body>
 

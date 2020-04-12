@@ -406,6 +406,9 @@
     soaES.prepend('<h4>EN EL AÑO 2015 FINALIZAMOS NUESTRA INTERVENCIÓN EN SOACHA.</h4>');
     soaEN.prepend('<h4>IN 2015, WE FINISHED OUR INTERVENTION IN SOACHA.</h4>');
 
+    // Init map
+    var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+
     new WOW().init();
   });
 
