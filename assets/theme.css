@@ -8176,25 +8176,26 @@ body.page-template-what-we-do-tpl .gestion #inf-gestion ul li:hover a {
     background-position: -275px -32px
 }
 
-.site-footer .yellow-footer {
-    background-color: #ffbb01;
-    padding: 1em 0
+.site-footer .page-footer {
+    background-color: rgba(155, 29, 33, 0.3);
+    padding: 1em 0;
+    margin: 30px 0px;
 }
 
-.site-footer .yellow-footer:after {
+.site-footer .page-footer:after {
     content: "";
     display: table;
     clear: both
 }
 
-.site-footer .yellow-footer .col1 .location-item {
+.site-footer .page-footer .col1 .location-item {
     position: relative;
     padding: .5em 1em;
     text-align: center
 }
 
-.site-footer .yellow-footer .col1 .location-item a,
-.site-footer .yellow-footer .col1 .location-item p {
+.site-footer .page-footer .col1 .location-item a,
+.site-footer .page-footer .col1 .location-item p {
     text-align: right;
     font-size: 15px;
     font-family: Open Sans Bold;
@@ -8206,54 +8207,54 @@ body.page-template-what-we-do-tpl .gestion #inf-gestion ul li:hover a {
 }
 
 @media (max-width:767px) {
-    .site-footer .yellow-footer .col1 .location-item a,
-    .site-footer .yellow-footer .col1 .location-item p {
+    .site-footer .page-footer .col1 .location-item a,
+    .site-footer .page-footer .col1 .location-item p {
         text-align: center
     }
 }
 
-.site-footer .yellow-footer .col1 .location-item span {
+.site-footer .page-footer .col1 .location-item span {
     display: inline-block;
     vertical-align: middle;
     margin-left: 2%
 }
 
-.site-footer .yellow-footer .col1 .location-item span.pointer {
+.site-footer .page-footer .col1 .location-item span.pointer {
     width: 22px;
     height: 23px;
     background-image: url(../css/3a5e7ccf1a88d672495b2e01b354a2e0.png)
 }
 
-.site-footer .yellow-footer .col1 .location-item span.sm-mail {
+.site-footer .page-footer .col1 .location-item span.sm-mail {
     width: 23px;
     height: 17px;
     background-image: url(../css/81ed2fab1c3da47be050954e7c63114f.png)
 }
 
-.site-footer .yellow-footer .col1 .location-item span.sm-phone {
+.site-footer .page-footer .col1 .location-item span.sm-phone {
     width: 15px;
     height: 25px;
     background-image: url(../css/9a287257fa4b6eb3c7e75f0d421336a5.png)
 }
 
-.site-footer .yellow-footer .col1 .location-item span.sm-docs {
+.site-footer .page-footer .col1 .location-item span.sm-docs {
     width: 25px;
     height: 25px;
     background-image: url(../css/10002ba428d5a2a83d3726ee7f8b0296.png)
 }
 
-.site-footer .yellow-footer .col2 {
+.site-footer .page-footer .col2 {
     position: relative;
     border-right: 2px solid #3c3c3c
 }
 
 @media (min-width:1200px) {
-    .site-footer .yellow-footer .col2 {
+    .site-footer .page-footer .col2 {
         margin-top: 1.25em
     }
 }
 
-.site-footer .yellow-footer .col2 a {
+.site-footer .page-footer .col2 a {
     display: block;
     padding: .5em 1.3em;
     background-color: #cc0b3c;
@@ -8266,25 +8267,25 @@ body.page-template-what-we-do-tpl .gestion #inf-gestion ul li:hover a {
     text-align: center
 }
 
-.site-footer .yellow-footer .col2 a:hover {
+.site-footer .page-footer .col2 a:hover {
     background-color: #3c3c3c;
     text-decoration: none
 }
 
 @media (min-width:1200px) {
-    .site-footer .yellow-footer .col3 {
+    .site-footer .page-footer .col3 {
         margin-top: 2em
     }
 }
 
-.site-footer .yellow-footer .col3 a {
+.site-footer .page-footer .col3 a {
     width: 29%;
     display: inline-block;
     vertical-align: middle;
     margin: 0 0 0 1em
 }
 
-.site-footer .yellow-footer .col3 a.huella {
+.site-footer .page-footer .col3 a.huella {
     text-align: right;
     font-size: 1.25em;
     text-transform: uppercase;
@@ -8296,40 +8297,40 @@ body.page-template-what-we-do-tpl .gestion #inf-gestion ul li:hover a {
     margin: 0
 }
 
-.site-footer .yellow-footer .col3 a img {
+.site-footer .page-footer .col3 a img {
     display: block;
     max-width: 100%
 }
 
-.site-footer .yellow-footer .col4 {
+.site-footer .page-footer .col4 {
     position: relative
 }
 
-.site-footer .yellow-footer .col4 p {
+.site-footer .page-footer .col4 p {
     max-width: 67%;
     text-align: left
 }
 
 @media (max-width:767px) {
-    .site-footer .yellow-footer .col4 p {
+    .site-footer .page-footer .col4 p {
         text-align: center;
         width: 100%;
         max-width: 100%
     }
 }
 
-.site-footer .yellow-footer .col4 p .wpcf7-list-item-label {
+.site-footer .page-footer .col4 p .wpcf7-list-item-label {
     display: none
 }
 
-.site-footer .yellow-footer .col4 p a {
+.site-footer .page-footer .col4 p a {
     font-size: 12px;
     display: inline-block;
     vertical-align: middle;
     color: #000
 }
 
-.site-footer .yellow-footer .col4 p input[type=submit] {
+.site-footer .page-footer .col4 p input[type=submit] {
     background-color: #cc0b3c;
     border: none;
     position: absolute;
@@ -8342,13 +8343,13 @@ body.page-template-what-we-do-tpl .gestion #inf-gestion ul li:hover a {
     border-radius: 1em
 }
 
-.site-footer .yellow-footer .col4 p input[type=submit]:hover {
+.site-footer .page-footer .col4 p input[type=submit]:hover {
     background-color: #3c3c3c;
     text-decoration: none
 }
 
 @media (max-width:767px) {
-    .site-footer .yellow-footer .col4 p input[type=submit] {
+    .site-footer .page-footer .col4 p input[type=submit] {
         top: inherit;
         right: inherit;
         position: relative;
@@ -8357,7 +8358,7 @@ body.page-template-what-we-do-tpl .gestion #inf-gestion ul li:hover a {
     }
 }
 
-.site-footer .yellow-footer .col4 p input[type=checkbox] {
+.site-footer .page-footer .col4 p input[type=checkbox] {
     margin: 0 .625em 0 0;
     display: inline-block;
     vertical-align: middle
